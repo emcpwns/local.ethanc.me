@@ -1,6 +1,8 @@
 # About atlas.lan
 
+atlas.lan is an HP EliteDesk 800 G6 mini computer, running Proxmox Virtual Environment. While this machine is small, and a few generations old at this point, it's still 6 years newer than my other PVE host, and benefits from much better power consumption due to the newer silicon. For this reason, I tend to use it for anything network-critical and/or constantly using compute.
 
+Most of VMs/LXCs on this host either use very little storage, or use tartarus.lan for network storage. This allows atlas.lan to run light with just 1TB SSD of local storage, and 256GB NVMe for booting PVE and storing ISOs & CT templates. Under typical conditions atlas.lan draws about 20w of power or less.
 ## Child Hosts
 
 | Name          | Description   | Purpose                                                                                                                                                                    |
@@ -11,7 +13,7 @@
 | artemis.lan   | Monitoring    | Runs [Smokeping](https://oss.oetiker.ch/smokeping/) to track and graph uptime of the local network and specific remote hosts.                                              |
 | hermes.lan    | Monitoring    | [Notifiarr](https://notifiarr.com/) server for Discord integration & to track the status of select hosts, displayed at [status.ethanc.me](https://status.ethanc.me/).      |
 | iris.lan      | iPXE          | Runs [Netboot.xyz](https://netboot.xyz/) for simple and fast iPXE network booting.                                                                                         |
-| mnemosyne.lan | NAS           | 1TB NVMe text-document storage NAS & [Samba](https://www.samba.org/) server                                                                                                |
+| mnemosyne.lan | NAS           | [TurnKey File Server](https://www.turnkeylinux.org/fileserver) for NAS/[Samba](https://www.samba.org/) (For text docs, .pdfs, etc.)                                        |
 | hestia.lan    | IOT           | [HomeAssistant OS](https://www.home-assistant.io/) host and Z-Wave controller.                                                                                             |
 | athena.lan    | Web           | Runs [Dashy](https://dashy.to/), a web-based dashboard.                                                                                                                    |
 

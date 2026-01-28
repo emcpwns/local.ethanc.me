@@ -5,15 +5,15 @@ While `ethanc.me` is my registered domain name, `local.ethanc.me` is reserved fo
 
 ## Infrastructure
 
-| Name                                     | Description                         | Purpose                                                                              |
-| ---------------------------------------- | ----------------------------------- | ------------------------------------------------------------------------------------ |
-| WANa                                     | `Spectrum` Hitron DOCSIS 3.1 Modem  | Primary WAN connection, coaxial.                                                     |
-| WANb                                     | `T-Mobile` Arcadyan KVD21 5G Modem  | Secondary WAN connection, mobile.                                                    |
-| hyperion.lan                             | Intel N100-based Firewall Appliance | [OPNSense](https://opnsense.org/opnsense/)-based routing & switching + MWAN failover |
-| helios.lan                               | TP-Link Archer A7                   | [OpenWrt](https://openwrt.org/about) wireless access point                           |
-| [[atlas.lan/index\|atlas.lan]]           | HP EliteDesk 1L PC                  | Low-power [Proxmox VE](https://pve.proxmox.com/wiki/Main_Page) Host                  |
-| [[prometheus.lan/index\|prometheus.lan]] | Dell PowerEdge R430                 | Rack-mount [Proxmox VE](https://pve.proxmox.com/wiki/Main_Page) Host                 |
-| hephaestus.lan                           | Brother MFC-J5620DW                 | Network printer/scanner                                                              |
+| Name           | Description                         | Purpose                                                                              |
+| -------------- | ----------------------------------- | ------------------------------------------------------------------------------------ |
+| WANa           | `Spectrum` Hitron DOCSIS 3.1 Modem  | Primary WAN connection, coaxial.                                                     |
+| WANb           | `T-Mobile` Arcadyan KVD21 5G Modem  | Secondary WAN connection, mobile.                                                    |
+| hyperion.lan   | Intel N100-based Firewall Appliance | [OPNSense](https://opnsense.org/opnsense/)-based routing & switching + MWAN failover |
+| helios.lan     | TP-Link Archer A7                   | [OpenWrt](https://openwrt.org/about) wireless access point                           |
+| atlas.lan      | HP EliteDesk 1L PC                  | Low-power [Proxmox VE](https://pve.proxmox.com/wiki/Main_Page) Host                  |
+| prometheus.lan | Dell PowerEdge R430                 | Rack-mount [Proxmox VE](https://pve.proxmox.com/wiki/Main_Page) Host                 |
+| hephaestus.lan | Brother MFC-J5620DW                 | Network printer/scanner                                                              |
 
 ## Virtual Hosts
 

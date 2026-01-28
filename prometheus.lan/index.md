@@ -2,7 +2,7 @@
 
 prometheus.lan is a Dell PowerEdge R430 dual-socket rack mount server, running Proxmox Virtual Environment. With older silicon under the hood, the R430 is not the most power efficient PVE host, but what it lacks in practicality it makes up for in 48 decently powerful vCores to divide among LXCs and VMs for daily tasks and random projects. 
 
-Four 4TB SAS Hard Drives in a ZFS pool with two mirrored vdevs and a 1TB NVMe L2ARC cache drive provide storage to the virtual environment, and user-level access is provided to the storage pool through tartarus.lan. An additional 512GB SSD is installed for booting PVE and storing ISOs & CT Templates. Under typical conditions prometheus.lan draws about 110-148w of power.
+Four 4TB SAS Hard Drives in a ZFS pool with two mirrored vdevs and a 1TB NVMe L2ARC cache drive provide storage to the virtual environment, and user-level access is provided to the storage pool through tartarus.lan. An additional 512GB SSD is installed for booting PVE and storing ISOs & CT Templates. Under typical conditions prometheus.lan draws about 110-148w of power, which while high, provides the storage backbone for the entire LAN in the form of good ole' spinning rust.
 
 ## Child Hosts
 

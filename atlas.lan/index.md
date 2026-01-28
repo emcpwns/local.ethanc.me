@@ -15,4 +15,5 @@
 | hestia.lan    | IOT           | [HomeAssistant OS](https://www.home-assistant.io/) host and Z-Wave controller.                                                                                             |
 | athena.lan    | Web           | Runs [Dashy](https://dashy.to/), a web-based dashboard.                                                                                                                    |
 
+
 *This list is not exhaustive and excludes short-term deployments and redundant hosts.*

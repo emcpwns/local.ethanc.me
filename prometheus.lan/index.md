@@ -12,4 +12,6 @@
 | olympus.lan  | Media       | [Pterodactyl](https://pterodactyl.io/) panel for hosting/managing video game servers.                           |
 | ares.lan     | Other       | Runs [ArchiveTeam Warrior](https://tracker.archiveteam.org/) to assist in crowd-sourced virtual archiving.      |
 | panacea.lan  | Other       | Hosts a [Folding@home](https://foldingathome.org/about-2/) node to assist is crowd-sourced scientific research. |
+
+
 *This list is not exhaustive and excludes short-term deployments and redundant hosts.*

@@ -9,4 +9,4 @@ Spectrum provides primary WAN access with a "gigabit" (asymmetric) coaxial conne
 
 ![Outage graph from SmokePing](https://raw.githubusercontent.com/emcpwns/local.ethanc.me/refs/heads/main/img/Outage%202026-01-20.png)
 
-The SmokePing graph above taken from artemis.lan illustrates a complete Spectrum outage from about 1PM EST until 4PM EST on Tuesday, January 20th. Although this event was completely mitigated thanks to the failover WAN, this would otherwise represent an entire half-day of lost work.
+The SmokePing graph above taken from artemis.lan illustrates a complete Spectrum outage from about 1PM EST until 4PM EST on Tuesday, January 20th. Although this event was completely mitigated thanks to the failover WAN, this would otherwise represent a half-day of lost work.

@@ -2,6 +2,8 @@
 
 atlas.lan is an HP EliteDesk 800 G6 mini computer, running Proxmox Virtual Environment. While this machine is small, and a few generations old at this point, it's still 6 years newer than my other PVE host, and benefits from much better power consumption due to the newer silicon. For this reason, I tend to use it for anything network-critical and/or constantly using compute.
 
+![HP Mini PC Diagram](https://raw.githubusercontent.com/emcpwns/local.ethanc.me/refs/heads/main/img/HP800G6%20Diagram.png)
+
 Most of VMs/LXCs on this host either use very little storage, or use tartarus.lan for network storage. This allows atlas.lan to run light with just 1TB SSD of local storage, and 256GB NVMe for booting PVE and storing ISOs & CT templates. Under typical conditions atlas.lan draws about 20w of power or less.
 ## Child Hosts
 

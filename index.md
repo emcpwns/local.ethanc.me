@@ -3,6 +3,8 @@
 `local.ethanc.me` is the FQDN used for properties on my LAN, and will generally be used interchangeably when I'm referring to my homelab and/or local network environment as a whole.
 While `ethanc.me` is my registered domain name, `local.ethanc.me` is reserved for my private network, and not accessible to the public or listed on any public DNS servers.
 
+![Server rack picture](https://raw.githubusercontent.com/emcpwns/local.ethanc.me/refs/heads/main/img/Homelab%20Rack.jpg)
+
 ## Infrastructure
 
 | Name           | Description                         | Purpose                                                                              |

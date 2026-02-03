@@ -17,6 +17,26 @@ While `ethanc.me` is my registered domain name, `local.ethanc.me` is reserved fo
 | prometheus.lan | Dell PowerEdge R430                 | Rack-mount [Proxmox VE](https://pve.proxmox.com/wiki/Main_Page) Host                 |
 | hephaestus.lan | Brother MFC-J5620DW                 | Network printer/scanner                                                              |
 
+
+## Core Software
+
+| Name                                                           | Description                                                                                                                                                                                                                                                                                                                                           |
+| -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Proxmox VE](https://pve.proxmox.com/pve-docs/)                | PVE is a complete, open-source server management platform for enterprise virtualization. It tightly integrates the KVM hypervisor and Linux Containers (LXC), software-defined storage and networking functionality, on a single platform. PVE is the virtualization host of choice for my homelab due to it's community support and flexibility.     |
+| [Debian](https://www.debian.org/doc/manuals/debian-reference/) | Debian is one of the oldest Linux distros still in active development, and one I've used in one way or another for over 14 years now. Because of its maturity, it's incredibly stable, and Debian 11 or 12 installs make up the bulk of my LXCs.                                                                                                      |
+| [Docker](https://docs.docker.com/manuals/)                     | Docker and it's associated tools like docker-compose is a containerization suite that automate the deployment of applications, allowing them to run consistently across different environments. I use Docker whenever possible to simplify the process of keeping hosts patched and secured, and reduce the need for extra VMs/LXCs when unnecessary. |
+
+### VM vs LXC vs Docker CT
+
+| Virtual Machine                                  | Linux Container                           | Docker Container                                             |
+| ------------------------------------------------ | ----------------------------------------- | ------------------------------------------------------------ |
+| Full hardware virtualization with its own kernel | OS-level container running on host kernel | Application-level container built on OS-level container tech |
+| Very Strong Isolation                            | Strong isolation                          | Moderate isolation                                           |
+| Lower performance from hypervisor overhead       | Near-native performance                   | Near-native performance                                      |
+| Boots in several seconds to a minute.            | Boots in a few seconds.                   | Typically boots in less than a second.                       |
+| Windows, BSD, Linux, etc.                        | Linux Only                                | Linux Only                                                   |
+
+
 ## Virtual Hosts
 
 | Name          | Description   | Purpose                                                                                                                                                                    |
